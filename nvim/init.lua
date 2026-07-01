@@ -22,7 +22,6 @@ require('lazy').setup({
     require 'plugins.completion',
     require 'plugins.bufferline',
     require 'plugins.gitsigns',
-    require 'plugins.alpha',
     require 'plugins.vim-tmux-navigator',
     require 'plugins.formatter',
     require 'plugins.lazygit'
