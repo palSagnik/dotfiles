@@ -20,7 +20,6 @@ require('lazy').setup({
     require 'plugins.telescope',
     require 'plugins.lsp',
     require 'plugins.completion',
-    require 'plugins.bufferline',
     require 'plugins.gitsigns',
     require 'plugins.vim-tmux-navigator',
     require 'plugins.formatter',
