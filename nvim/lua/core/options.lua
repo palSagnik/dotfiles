@@ -23,7 +23,7 @@ vim.diagnostic.config({
   },
 })
 
-vim.g.lazygit_floating_window_winblend = 30        -- transparency of the floating window (0 = opaque)
+vim.g.lazygit_floating_window_winblend = 10        -- transparency of the floating window (0 = opaque)
 vim.g.lazygit_floating_window_scaling_factor = 0.6 -- how much of the screen the window covers
 vim.g.lazygit_floating_window_use_plenary = 0      -- use plenary.nvim for window mgmt if available
 vim.g.lazygit_floating_window_border_chars = {'╭','─','╮','│','╯','─','╰','│'} -- border glyphs
