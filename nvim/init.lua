@@ -23,6 +23,7 @@ require('lazy').setup({
     require 'plugins.gitsigns',
     require 'plugins.vim-tmux-navigator',
     require 'plugins.formatter',
+    require 'plugins.indent',
     require 'plugins.lazygit'
 })
 
