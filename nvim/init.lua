@@ -24,6 +24,7 @@ require('lazy').setup({
     require 'plugins.vim-tmux-navigator',
     require 'plugins.formatter',
     require 'plugins.indent',
-    require 'plugins.lazygit'
+    require 'plugins.lazygit',
+    require 'plugins.typst-preview'
 })
 
