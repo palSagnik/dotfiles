@@ -31,3 +31,11 @@ vim.g.lazygit_use_neovim_remote = 1  -- auto-set based on nvr detection; you alr
 vim.g.lazygit_use_custom_config_file_path = 0
 vim.g.lazygit_config_file_path = ''  -- or a table of paths, if you want a custom lazygit config.yml per-project
 vim.g.lazygit_on_exit_callback = nil -- function to run after lazygit closes
+
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+vim.opt.foldcolumn = "0"
+vim.opt.foldtext = ""
+vim.opt.foldlevel = 99
+vim.opt.foldlevelstart = 1
+vim.opt.foldnestmax = 4
