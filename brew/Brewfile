@@ -1,0 +1,29 @@
+# Regenerate with: brew bundle dump --force --file=brew/Brewfile
+# Install with:    brew bundle install --file=brew/Brewfile
+
+# Shell / terminal
+brew "fzf"
+brew "tmux"
+brew "neovim"
+brew "ripgrep"
+brew "tree"
+brew "wget"
+brew "yq"
+brew "gnupg"
+
+# Git
+brew "gh"
+brew "lazygit"
+
+# Cloud / k8s
+brew "awscli"
+brew "kubernetes-cli"
+brew "kubectx"
+brew "minikube"
+
+# Languages
+brew "go"
+
+cask "ghostty"
+cask "orbstack"
+cask "claude-code"
